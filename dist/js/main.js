@@ -9,6 +9,7 @@ const navItems = document.querySelectorAll('.nav-item');
 const twitter = document.querySelector('.fa-twitter');
 const linkedin = document.querySelector('.fa-linkedin');
 const github = document.querySelector('.fa-github');
+const hashnode = document.querySelector('.fa-hashnode');
 
 
 // Set Initial State Of Menu
@@ -50,3 +51,6 @@ github.addEventListener('click', () => {
   window.open('https://github.com/gagan-28deep')
 })
 
+hashnode.addEventListener('click', () => {
+  window.open('https://hashnode.com/@gagan28')
+})
